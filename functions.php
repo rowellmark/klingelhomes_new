@@ -5,8 +5,22 @@
 function register_ai_child_starter_theme_sidebars() {
 	$items = [
 		'Header: Logo',
+		'Expanded Menu: Contact Info',
+		'Home: Popup',
 		'Home: Slider',
+		'Home: Quick Search',
+		'Home: About',
+		'Home: Meet the Team',
+		'Home: Work with us',
+		'Home: Featured Properties',
+		'Home: Testimonials',
+		'Home: Featured Communities',
+		'Home: In the Media',
+		'Home: Instagram',
 		'Footer: Form',
+		'Footer: Logo',
+		'Footer: Contact Info',
+		'Footer: Disclaimer',
 	];
 
 	foreach ($items as $item) {

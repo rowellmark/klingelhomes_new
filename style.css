@@ -1979,11 +1979,13 @@ body{
     color: #000;
     margin: 0;
     font-family: var(--font-family-title);
+    font-weight: 400;
 }
 
 /* Styles for category/archive/search/etc subheadings (h2) */
 #content .archive-subtitle {
     font-family: var(--font-family-title);
+    font-weight: 400;
 }
 
 body #pojo-a11y-toolbar {
