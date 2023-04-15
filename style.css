@@ -1738,6 +1738,7 @@ body{
                         }
                             #joinOurNetwork .networkForm .cf-submit input[type="submit"]:hover{
                                 background: var(--primary);
+                                color: #fff;
                             }
                   
 
