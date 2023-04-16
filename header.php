@@ -22,9 +22,7 @@
 	<header class="header fixed w-100">
 		<div class="header-container flex justify-between items-center w-100 default-container">
 			<div class="logo">
-				<a href="<?php echo esc_url( home_url() ) ?>" class="site-name">
-					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/logo.png" alt="Klingel Homes Real Estate Agency" class="block w-100 h-auto" width="315" height="38"> 
-				</a>
+				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Header: Logo") ) : ?><?php endif ?>
 			</div><!-- end of logo -->
 
 			<nav class="navigation">
@@ -50,31 +48,7 @@
 			</div><!-- end of expanded navigation -->
 
 			<div class="expandedMenu-info w-100">
-				<ul class="flex justify-between w-100 items-center">
-					<li>
-						<h3>Phone</h3>
-						<?= do_shortcode('[ai_client_phone]{default-phone}[/ai_client_phone]')?>
-					</li>
-					<li>
-						<h3>Email</h3>
-						<?= do_shortcode('[ai_client_email]{default-email}[/ai_client_email]')?>
-					</li>
-					<li>
-						<h3>Office Address</h3>
-						<?= do_shortcode('[ai_client_address]')?>
-					</li>
-					<li>
-						<h3>Social Media</h3>
-						<div class="glob-smi flex items-center justify-between">
-							<a href="<?= do_shortcode('[ai_client_facebook]')?>" target="_blank"><i class="ai-font-facebook"></i> Facebook</a>
-							<a href="<?= do_shortcode('[ai_client_youtube]')?>" target="_blank"><i class="ai-font-youtube"></i> Youtube</a>
-							<a href="<?= do_shortcode('[ai_client_instagram]')?>" target="_blank"><i class="ai-font-instagram"></i> instagram</a>
-						</div>
-					</li>
-					<li>
-						<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/logo-white.png" alt="Homes Real Estate Agency" class="block w-100 h-auto" width="301" height="113">
-					</li>
-				</ul>
+				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Expanded Menu: Contact Info") ) : ?><?php endif ?>
 			</div><!-- end of expanded-info -->
 		</div>
 	</header>

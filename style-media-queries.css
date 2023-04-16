@@ -13,7 +13,9 @@
 /* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
 @media only screen and (max-width: 991px) {
 	
-
+	#pojo-a11y-toolbar{
+		display: none;
+	}
 	.default-title h2 {
 		font-size: 40px;
 	}
@@ -33,6 +35,11 @@
 	/* The following are used on inner pages. Please edit carefully. */
 
 
+	.header{
+		z-index: 5;
+		padding-top: 80px;
+		position: relative;
+	}
 	.header .logo {
 		width: 100%;
 		max-width: 315px;
