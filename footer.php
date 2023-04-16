@@ -9,14 +9,14 @@
 	<section id="joinOurNetwork" class="relative">
 		<div class="joinOurNetworkContainer">
 
-			<div class="default-title text-center default-title-white">
+			<div class="default-title text-center default-title-white" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 					<h2>
 					<em class="justify-center">join our <i>10</i></em>
 					<span>Network</span>
 				</h2>
 			</div>
-			<p>Become an insider on everything real estate along the lakeshore.</p>
-			<div class="networkForm">
+			<p data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">Become an insider on everything real estate along the lakeshore.</p>
+			<div class="networkForm" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<?= do_shortcode('[contact-form-7 id="339" title="HP Contact Us" html_class="use-floating-validation-tip"]')?>
 			</div>
 		</div>

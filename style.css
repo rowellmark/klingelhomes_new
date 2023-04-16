@@ -703,6 +703,7 @@ body{
 .globPopup{
     z-index: 1001;
     background-color: rgba(0, 0, 0, 0.6);
+    display: none;
 }
 
     .globPopup .globPopupClose{

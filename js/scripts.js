@@ -169,7 +169,13 @@
 				type: 'loop',
 				perPage: 6,
 				pagination: false,
-				arrows: false
+				arrows: false,
+				breakpoints: {
+					991: {
+						perPage: 2,
+					},
+					
+				},
 			});
 
 			$('.ig-prev').on('click', function (e) {

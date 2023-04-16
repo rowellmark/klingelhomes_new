@@ -31,7 +31,7 @@
 </section><!-- end of hero -->
 
 <section id="quickSearchWrapper" class="relative">
-	<div class="quickSearchContainer flex w-100">
+	<div class="quickSearchContainer flex w-100" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 
 		<div class="quickSearchTitle">
 			
@@ -98,10 +98,10 @@
 
 <section id="aboutUsWrapper" class="relative">
 	<div class="aboutUsContainer flex relative">
-		<div class="aboutUsImage">
+		<div class="aboutUsImage" data-aos="fade-right" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 			<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/about-photo.jpg" alt="The Klingels" width="680" height="693" class="block w-100 h-auto">
 		</div><!-- end of about us image -->
-		<div class="aboutUsContent">
+		<div class="aboutUsContent" data-aos="fade-left" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 			<div class="default-title">
 				<h2>
 					<em>Meet <i>02</i></em>
@@ -123,7 +123,7 @@
 	<div class="meetTheteamContainer relative">
 
 		<div class="meetTheTeamContent flex items-center">
-			<div class="meetTheTeamText">
+			<div class="meetTheTeamText" data-aos="fade-right" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<div class="default-title">
 					<h2>
 						<em>Meet <i>03</i></em>
@@ -135,7 +135,7 @@
 				<p>Buyers have the unique opportunity to draw from my years of experience to accurately understand local neighborhoods. My candid advice and personal experience works to assist buyers to make a confident decision when choosing their home.</p>
 				<p>I’d love to grab coffee and start the discussion! Reach out to schedule a time to talk about your future real estate goals!</p>
 			</div><!-- end of meet the team text -->
-			<div class="meetTheTeamImage">
+			<div class="meetTheTeamImage" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 
 				<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/meet-team-image.jpg" alt="Mee The Team" width="484" height="452" class="block w-100 h-auto">
 
@@ -144,7 +144,7 @@
 
 		<div class="hpAgents flex flex-wrap-wrap">
 
-			<div class="hpAgent">
+			<div class="hpAgent" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<div class="hpAgentPhoto relative">
 						<canvas width="354" height="279" class="block w-100"></canvas>
@@ -154,7 +154,7 @@
 					<span>CEO / Realtor</span>
 				</a>
 			</div><!-- end of hp agent -->
-			<div class="hpAgent">
+			<div class="hpAgent" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<div class="hpAgentPhoto relative">
 						<canvas width="354" height="279" class="block w-100"></canvas>
@@ -164,7 +164,7 @@
 					<span>Broker / Realtor</span>
 				</a>
 			</div><!-- end of hp agent -->
-			<div class="hpAgent">
+			<div class="hpAgent" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<div class="hpAgentPhoto relative">
 						<canvas width="354" height="279" class="block w-100"></canvas>
@@ -174,7 +174,7 @@
 					<span>Broker / Realtor</span>
 				</a>
 			</div><!-- end of hp agent -->
-			<div class="hpAgent">
+			<div class="hpAgent" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<div class="hpAgentPhoto relative">
 						<canvas width="354" height="279" class="block w-100"></canvas>
@@ -184,7 +184,7 @@
 					<span>Broker / Realtor</span>
 				</a>
 			</div><!-- end of hp agent -->
-			<div class="hpAgent">
+			<div class="hpAgent" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<div class="hpAgentPhoto relative">
 						<canvas width="354" height="279" class="block w-100"></canvas>
@@ -194,7 +194,7 @@
 					<span>Broker / Realtor</span>
 				</a>
 			</div><!-- end of hp agent -->
-			<div class="hpAgent">
+			<div class="hpAgent" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<div class="hpAgentPhoto relative">
 						<canvas width="354" height="279" class="block w-100"></canvas>
@@ -207,7 +207,7 @@
 
 		</div><!-- end of hp agents -->
 
-		<div class="default-button flex justify-center">
+		<div class="default-button flex justify-center" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 			<a href="#">Learn More</a>
 		</div>
 
@@ -217,7 +217,7 @@
 	
 	<div class="hpWhyWorkWithUs relative">
 		<div class="hpWhyWorkWithUsContainer">
-			<div class="default-title text-center default-title-white">
+			<div class="default-title text-center default-title-white" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<h2>
 					<em class="justify-center">Why <i>06</i></em>
 					<span>Work With Us</span>
@@ -249,13 +249,13 @@
 
 		<div class="hpFPTitlewrap">
 			<div class="hpFPTitleContainer flex justify-between items-center">
-				<div class="default-title text-center">
+				<div class="default-title text-center" data-aos="fade-right" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 					<h2>
 						<em class="justify-center">Featured <i>04</i></em>
 						<span>Properties</span>
 					</h2>
 				</div>
-				<div class="default-button flex justify-center">
+				<div class="default-button flex justify-center" data-aos="fade-left" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 					<a href="#">View All Properties</a>
 				</div>
 			</div>	
@@ -263,7 +263,7 @@
 
 		<div class="fp-lists flex flex-wrap-wrap">
 
-			<div class="fp-list">
+			<div class="fp-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block relative">
 					<div class="fpImage relative">
 						<canvas width="530" height="384" class="block w-100"></canvas>
@@ -280,7 +280,7 @@
 					</div><!-- end of fp content -->
 				</a>
 			</div><!-- end of fp list -->
-			<div class="fp-list">
+			<div class="fp-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block relative">
 					<div class="fpImage relative">
 						<canvas width="530" height="384" class="block w-100"></canvas>
@@ -297,7 +297,7 @@
 					</div><!-- end of fp content -->
 				</a>
 			</div><!-- end of fp list -->
-			<div class="fp-list">
+			<div class="fp-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block relative">
 					<div class="fpImage relative">
 						<canvas width="530" height="384" class="block w-100"></canvas>
@@ -314,7 +314,7 @@
 					</div><!-- end of fp content -->
 				</a>
 			</div><!-- end of fp list -->
-			<div class="fp-list">
+			<div class="fp-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block relative">
 					<div class="fpImage relative">
 						<canvas width="530" height="384" class="block w-100"></canvas>
@@ -331,7 +331,7 @@
 					</div><!-- end of fp content -->
 				</a>
 			</div><!-- end of fp list -->
-			<div class="fp-list">
+			<div class="fp-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block relative">
 					<div class="fpImage relative">
 						<canvas width="530" height="384" class="block w-100"></canvas>
@@ -348,7 +348,7 @@
 					</div><!-- end of fp content -->
 				</a>
 			</div><!-- end of fp list -->
-			<div class="fp-list">
+			<div class="fp-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block relative">
 					<div class="fpImage relative">
 						<canvas width="530" height="384" class="block w-100"></canvas>
@@ -373,7 +373,7 @@
 
 <section id="hpTestimonials" class="relative">
 
-	<div class="hpTestimonials-container relative">
+	<div class="hpTestimonials-container relative" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 		<div class="default-title text-center">
 			<h2>
 				<em class="justify-center">featured <i>08</i></em>
@@ -410,7 +410,7 @@
 </section><!-- end of hp testimonials -->
 <section id="hpFeaturedCommunities" class="relative">
 	<div class="hpFeaturedCommunitiesContainer relative">
-		<div class="default-title text-center">
+		<div class="default-title text-center" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 			<h2>
 				<em class="justify-center">featured <i>05</i></em>
 				<span>Communities</span>
@@ -419,7 +419,7 @@
 
 		<div class="hpFcLists flex flex-wrap-wrap">
 
-			<div class="hpFcList">
+			<div class="hpFcList" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="470" height="304" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/fc-1.jpg" alt="Grand Haven" width="470" height="304" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
@@ -427,7 +427,7 @@
 				</a>
 			</div><!-- end of fc list -->
 
-			<div class="hpFcList">
+			<div class="hpFcList" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="470" height="304" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/fc-2.jpg" alt="Spring Lake" width="470" height="304" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
@@ -435,7 +435,7 @@
 				</a>
 			</div><!-- end of fc list -->
 
-			<div class="hpFcList">
+			<div class="hpFcList" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="470" height="304" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/fc-3.jpg" alt="Muskegon" width="470" height="304" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
@@ -443,7 +443,7 @@
 				</a>
 			</div><!-- end of fc list -->
 
-			<div class="hpFcList">
+			<div class="hpFcList" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="470" height="304" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/fc-4.jpg" alt="West Olive" width="470" height="304" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
@@ -451,7 +451,7 @@
 				</a>
 			</div><!-- end of fc list -->
 
-			<div class="hpFcList">
+			<div class="hpFcList" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="470" height="304" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/fc-5.jpg" alt="Holland" width="470" height="304" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
@@ -459,7 +459,7 @@
 				</a>
 			</div><!-- end of fc list -->
 
-			<div class="hpFcList">
+			<div class="hpFcList" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="#" class="block w-100 relative">
 					<canvas width="470" height="304" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/fc-6.jpg" alt="White Hall" width="470" height="304" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
@@ -469,7 +469,7 @@
 
 		</div><!-- end of fc lists -->
 
-		<div class="default-button flex justify-center">
+		<div class="default-button flex justify-center" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 			<a href="#">View All Communities</a>
 		</div>
 	</div><!-- end of featured communities container -->
@@ -478,7 +478,7 @@
 	<div class="inTheMediaContainer relative">
 
 		<div class="featuredInTheMedia flex items-center">
-			<div class="inTheMediaText">
+			<div class="inTheMediaText" data-aos="fade-right" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<div class="default-title">
 					<h2>
 						<em>In <i>07</i></em>
@@ -492,7 +492,7 @@
 				</div>
 
 			</div><!-- end of in the media text -->
-			<div class="inTheMediaFeaturedVideo">
+			<div class="inTheMediaFeaturedVideo" data-aos="fade-left" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="https://player.vimeo.com/video/215609798" class="block w-100 relative aios-video-popup">
 					<canvas width="824" height="463" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/featured-video.jpg" alt="Featured Video" width="824" height="463"  class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
@@ -501,19 +501,19 @@
 		</div>
 
 		<div class="video-lists flex">
-			<div class="video-list">
+			<div class="video-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="https://player.vimeo.com/video/215609798" class="block w-100 relative aios-video-popup">
 					<canvas width="410" height="232" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/video1.jpg" alt="Featured Video" width="410" height="232" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
 				</a>
 			</div><!-- end of video list -->
-			<div class="video-list">
+			<div class="video-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="https://player.vimeo.com/video/215609798" class="block w-100 relative aios-video-popup">
 					<canvas width="410" height="232" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/video2.jpg" alt="Featured Video" width="410" height="232" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
 				</a>
 			</div><!-- end of video list -->
-			<div class="video-list">
+			<div class="video-list" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 				<a href="https://player.vimeo.com/video/215609798" class="block w-100 relative aios-video-popup">
 					<canvas width="410" height="232" class="block w-100"></canvas>
 					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/video3.jpg" alt="Featured Video" width="410" height="232" class="block w-100 h-100 object-fit-cover object-position-center absolute top-0 left-0">
@@ -526,14 +526,14 @@
 <section id="hpInstagram" class="relative">
 	<div class="hpInstagramContainer relative">
 
-		<div class="default-title text-center">
+		<div class="default-title text-center" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 			<h2>
 				<em class="justify-center">Follow us on <i>09</i></em>
 				<span>Instagram</span>
 			</h2>
 		</div>
 
-		<div class="splide igLists">
+		<div class="splide igLists" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 			<div class="splide__track">
 				<div class="splide__list">
 
@@ -594,7 +594,7 @@
 		</div><!-- end of igLists -->
 
 
-		<div class="ig-pagination flex justify-center items-center">
+		<div class="ig-pagination flex justify-center items-center" data-aos="fade-up" data-aos-once="true" data-aos-offset="200" data-aos-duration="800">
 			<div class="ig-arrow ig-prev"></div>
 			<div class="default-button flex justify-center">
 				<a href="#">View More</a>

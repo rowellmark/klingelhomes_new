@@ -13,8 +13,286 @@
 /* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
 @media only screen and (max-width: 991px) {
 	
+
+	.default-title h2 {
+		font-size: 40px;
+	}
+		.default-title h2 em{
+			font-size: 12px;
+			padding: 0 0 5px;
+		}
+	.default-button a{
+		font-size: 14px;
+		height: 50px;
+		padding: 0 40px;
+	}
+	.header .navigation,
+	.header .expanded-menu-bttn{
+		display: none;
+	}
 	/* The following are used on inner pages. Please edit carefully. */
 
+
+	.header .logo {
+		width: 100%;
+		max-width: 315px;
+		margin: 0 auto;
+	}
+
+
+	#hero .aios-slider.aios-slider-template-default .aios-slider-splide .aios-slider-tagline .aios-slider-tagline-title{
+		font-size: 23px;
+	}
+
+	#hero .aios-slider.aios-slider-template-default .aios-slider-splide .aios-slider-tagline .aios-slider-tagline-description{
+		font-size: 16px;
+	}
+
+
+	.globPopup{
+	}
+		.globPopup .globPopupContainer{
+			flex-flow: column;
+		}
+			.globPopup .globPopupClose{
+				right: 0;
+				font-size: 20px;
+				width: 50px;
+				height: 50px;
+				top: -50px;
+			}
+			.globPopup .popupContent{
+				width: 100%;
+			}
+				.globPopup .popupContent .default-title h2{
+					text-align: center;
+				}
+					.globPopup .popupContent .default-title h2 em{
+						display: flex;
+						justify-content: center;
+					}
+
+					.globPopup .popupContent p{
+						font-size: 14px;
+						padding: 15px 0;
+						text-align: center;
+					}
+
+					.globPopup .popupContent .popform .cc_form_row input{
+						font-size: 14px;
+					}
+
+					.globPopup .popupContent .popform .cc_form_row textarea{
+						font-size: 14px;
+					}
+					.globPopup .cf-submit input[type="submit"] {
+						height: 50px;
+						font-size: 14px;
+						width: 100%;
+						max-width: 200px;
+					}
+
+						.globPopup .use-floating-validation-tip .wpcf7-not-valid-tip {
+							width: 100%;
+							font-size: 12px;
+						}
+			.globPopup .popupImage{
+				width: 100%;
+				display: none;
+			}
+	#quickSearchWrapper .quickSearchContainer{
+		flex-flow: column;
+	}
+
+		#quickSearchWrapper .quickSearchContainer .quickSearchTitle .default-title{
+			text-align: center;
+		}
+			#quickSearchWrapper .quickSearchContainer .quickSearchTitle .default-title h2 em{
+				display: flex;
+				justify-content: center;
+			}
+		#quickSearchWrapper .qSrow {
+			flex-flow: row wrap;
+		}
+
+		#quickSearchWrapper .qSrow .qScol{
+			width: calc(100% / 2);
+			margin: 0;
+			padding: 5px;
+		}
+		#quickSearchWrapper .qSrow .qScol:first-child,
+		#quickSearchWrapper .qSrow .qScol:nth-child(2) {
+			width: 100%;
+		}
+
+		#quickSearchWrapper .qSrow .qScol select {
+			height: 50px;
+			font-size: 14px;
+		}
+
+		#quickSearchWrapper .qSrow .qsBttn{
+			width: 100%;
+			margin: 20px 0 0;
+		}
+			#quickSearchWrapper .qSrow .qsBttn input, 
+			#quickSearchWrapper .qSrow .qsBttn a{
+				width: 50%;
+				font-size: 14px;
+				height: 50px;
+			}
+
+
+	#aboutUsWrapper{
+
+	}
+		.aboutUsContainer{
+			flex-flow: column;
+		}
+			.aboutUsContainer .aboutUsImage{
+				width: 100%;
+			}
+
+			.aboutUsContainer .aboutUsContent{
+				width: 100%;
+				padding: 30px 0;
+			}
+				.aboutUsContainer .aboutUsContent p{
+					font-size: 14px;
+				}
+	#meetTheTeam {
+		padding: 40px 30px;
+	}
+		#meetTheTeam .meetTheTeamContent{
+			flex-flow: column;
+		}
+			#meetTheTeam .meetTheTeamContent .meetTheTeamText{
+				width: 100%;
+			}
+				#meetTheTeam .meetTheTeamContent .meetTheTeamText p{
+					font-size: 14px;
+				}
+
+			#meetTheTeam .meetTheTeamContent .meetTheTeamImage{
+				width: 100%;
+				margin: 0;
+			}
+		#meetTheTeam .hpAgent{
+			width: calc(100% / 2);
+		}
+			#meetTheTeam .hpAgent h3{
+				font-size: 25px;
+			}
+			#meetTheTeam .hpAgent span{
+				font-size: 14px;
+			}
+
+		.hpWhyWorkWithUsContainer .work-with-us{
+			flex-flow: column;
+		}
+			.hpWhyWorkWithUsContainer .work-with-us li{
+				border-left: 0;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+			}
+				.hpWhyWorkWithUsContainer .work-with-us li span{
+					font-size: 36px;
+				}
+				.hpWhyWorkWithUsContainer .work-with-us li i{
+					font-size: 16px;
+				}
+
+		.hpFeatureProperties .hpFPTitlewrap .hpFPTitleContainer{
+			flex-flow: column;
+			padding: 10px 0 30px;
+		}
+			.hpFeatureProperties .hpFPTitlewrap .hpFPTitleContainer .default-title{
+				margin-bottom: 20px;
+			}
+
+		.hpFeatureProperties .fp-lists{
+
+		}
+			.hpFeatureProperties .fp-list{
+				width: 100%;
+			}
+				.hpFeatureProperties .fp-list a .fpContent{
+					padding: 20px;
+				}
+				.hpFeatureProperties .fp-list a .fpContent h4{
+					font-size: 32px;
+				}
+				.hpFeatureProperties .fp-list a .fpContent p{
+					font-size: 16px;
+					padding: 10px 0;
+					line-height: 1.4;
+				}
+				.hpFeatureProperties .fp-list a .fpContent ul{
+					padding: 0 20px;
+				}
+					.hpFeatureProperties .fp-list a .fpContent ul::after {
+						width: 5px;
+						height: 5px;
+					}
+					.hpFeatureProperties .fp-list a .fpContent ul li{
+						font-size: 14px;
+					}
+		#hpTestimonials .hpTestimonials-container {
+			width: 85%;
+		}
+			#hpTestimonials .testi-list p{
+				font-size: 16px;
+				padding: 40px 30px;
+			}
+			#hpTestimonials .testi-list h4{
+				font-size: 24px;
+			}
+
+			#hpTestimonials .splide__arrows .splide__arrow::after{
+				width: 21px;
+				height: 42px;
+			}
+
+		#hpFeaturedCommunities .hpFcLists{
+			margin: 30px 0;
+		}
+			#hpFeaturedCommunities .hpFcList{
+				width: calc(100%/ 2);
+			}
+				#hpFeaturedCommunities .hpFcList a h4{
+					font-size: 20px;
+				}
+
+		#inTheMedia .featuredInTheMedia{
+			flex-flow: column;
+		}
+			#inTheMedia .inTheMediaContainer{
+				padding: 0;
+			}
+			#inTheMedia .featuredInTheMedia .inTheMediaText{
+				width: 100%;
+				padding-bottom: 25px;
+			}
+				#inTheMedia .featuredInTheMedia .inTheMediaText p{
+					font-size: 16px;
+				}
+
+			#inTheMedia .featuredInTheMedia .inTheMediaFeaturedVideo{
+				width: 100%;
+				margin: 0;
+			}
+
+			#inTheMedia .video-lists{
+				flex-flow: row wrap;
+				padding: 0;
+			}
+				#inTheMedia .video-list{
+					width: calc(100% / 2);
+				}
+
+			#hpInstagram .ig-arrow::after{
+				width: 21px;
+				height: 42px;
+				margin: 0 30px;
+			}
 	.inner {
 	    width: 100%;
 	}
@@ -28,7 +306,106 @@
 	#content-sidebar #content{
 		width: 100%;
 	}
-	
+
+	#joinOurNetwork{
+		padding: 40px 0;
+	}
+	#joinOurNetwork .networkForm{
+		width: 80%;
+	}
+
+		#joinOurNetwork .joinOurNetworkContainer p{
+			font-size: 14px;
+			padding:  20px 0;
+		}
+		#joinOurNetwork .networkForm .cc_form_row .cc_form_col {
+			padding: 5px;
+		}
+		#joinOurNetwork .networkForm label,
+		#joinOurNetwork .networkForm h5{
+			font-size: 14px;
+		}
+
+		#joinOurNetwork .networkForm .cc_form_row input{
+			font-size: 14px;
+			padding: 10px;
+		}
+
+		#joinOurNetwork .networkForm .cc_form_row textarea{
+			font-size: 14px;
+			padding: 10px;
+		}
+
+		#joinOurNetwork .networkForm .cf-submit input[type="submit"]{
+			height: 50px;
+			font-size: 14px;
+			width: 100%;
+			max-width: 200px;
+		}
+		#joinOurNetwork .use-floating-validation-tip .wpcf7-not-valid-tip{
+			font-size: 14px;
+		}
+		.wpcf7-response-output{
+			font-size: 14px;
+		}
+
+		.footer {
+			padding: 50px 30px;
+		}
+			.footer .footer-logos{
+				flex-flow: column;
+			}
+				.footer .footer-logos img {
+					margin: 15px 0;
+				}
+
+
+				.footer .footer-info ul{
+					flex-flow: column;
+				}
+					.footer .footer-info li{
+						font-size: 14px;
+						padding: 10px 0;
+					}
+					.footer .footer-info li h3{
+						font-size: 18px;
+					}
+				.footer .footer-info li .glob-smi{
+					padding-top: 15px;
+				}
+					.footer .footer-info li .glob-smi i{
+						font-size: 16px;
+					}
+			.footer .footer-navigation ul{
+				flex-flow: column;
+				align-items: center;
+			}
+				.footer .footer-navigation ul li{
+					padding: 10px 0;
+					
+				}
+					.footer .footer-navigation ul li a{
+						font-size: 14px;
+					}
+			.footer .footer-disclaimer p{
+				font-size: 14px;
+			}
+
+			.footer .footer-copyright{
+				flex-flow: column;
+				justify-content: center;
+			}
+				.footer .footer-copyright p{
+					font-size: 14px;
+				}
+
+				.footer .footer-copyright .copyright-logos{
+					padding-top: 15px;
+				}
+				.footer .footer-copyright .copyright-logos i{
+					font-size: 30px;
+					margin: 0 10px;
+				}
 } 
 
 /* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
@@ -40,6 +417,15 @@
 
 /* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
 @media only screen and (max-width: 480px) {
+	#hpFeaturedCommunities .hpFcList{
+		width: 100%;
+	}
 
+	#joinOurNetwork .networkForm .cc_form_row{
+		flex-flow: column;
+	}
+		#joinOurNetwork .networkForm .cc_form_row .cc_form_col{
+			width: 100%;
+		}
 }
  

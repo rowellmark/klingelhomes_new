@@ -81,6 +81,3 @@ add_filter( 'nav_menu_link_attributes', 'ai_starter_theme_add_menu_link_attribut
 if ( ! isset( $content_width ) ) {
 	$content_width = 960;
 }
-
-
-add_filter( 'show_admin_bar', '__return_false' );
